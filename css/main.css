@@ -1,0 +1,112 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f6ff;
+}
+
+.container {
+    display: block;
+    border: 1px solid gray;
+    width: 55%;
+    margin: auto;
+    font-size: x-large;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    border-radius: 3px;
+}
+
+#heading {
+    text-align: center;
+    padding-top: 5%;
+}
+
+img {
+    display: inline;
+    width: 3rem;
+    margin: 3% auto;
+
+}
+
+img:hover {
+    opacity: .7;
+}
+
+#imgbox {
+    background-color: #f2f6ff;
+
+}
+
+.img {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+form {
+    padding: 8%;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 4%;
+    padding-left: 7px;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+
+input::placeholder {
+    font-family:  cursive;
+    font-size: large;
+}
+
+
+button{
+    display: block;
+    background-color: blue;
+    width: auto;
+    margin: auto;
+    padding: 10px 30px;
+    color: white;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 2px;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+/* media query for max width 550px*/
+
+@media screen and (max-width:700px) {
+    .container{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container{
+        font-size: medium;
+        margin-top: 10%;
+        width: 80%;
+     }
+     img{
+         width: 2rem;
+     }
+    
+    }
+
+@media screen and (max-width:300px){
+    .container{
+        width: 95%;
+    }
+  
+}
+  
